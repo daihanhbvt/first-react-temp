@@ -1,0 +1,113 @@
+.menu {
+  background-color: rgb(234, 238, 238);
+  border: 1px solid white;
+  /* padding: 12px; */
+}
+
+.menu-item {
+  position: relative;
+}
+
+.list-group {
+  width: 200px;
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 43px;
+}
+.btn {
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.nav__small .Collapsible__trigger:after {
+  content: "";
+}
+
+.Collapsible__trigger.is-open:after {
+  transform: rotateZ(180deg);
+}
+
+.Collapsible__trigger.is-disabled {
+  opacity: 0.5;
+  background-color: grey;
+}
+
+.CustomTriggerCSS {
+  background-color: lightcoral;
+  transition: background-color 200ms ease;
+}
+
+.CustomTriggerCSS--open {
+  background-color: darkslateblue;
+}
+
+.Collapsible__custom-sibling {
+  padding: 5px;
+  font-size: 12px;
+  background-color: #cbb700;
+  color: black;
+}
+.navbar__small {
+  padding-top: 16px;
+  width: 45px;
+  align-items: center;
+}
+.navbar__small .nav__small .Collapsible .Collapsible__contentOuter {
+  position: absolute;
+
+  background-color: rgb(234, 238, 238);
+
+  width: 160px;
+  top: 1px;
+  left: 48px;
+  z-index: 10000;
+}
+.navbar__small a:hover {
+  text-decoration: none;
+}
+.sidenav-icon__use {
+  margin: 8px;
+}
+.title__small-list {
+  background-color: rgb(234, 238, 238);
+  height: 44px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title__small-item {
+  padding: 8px 16px;
+}
+.title__small-list-item {
+  background-color: white;
+  padding: 8px 16px;
+
+  font-size: 16px;
+}
+.title__small-item:hove {
+  background-color: rgb(96, 105, 112);
+  padding: 8px 16px;
+}
+.title__small-item-icon {
+  padding: 12px;
+}
+.title__small-item-icon-name {
+  padding: 0px 8px 0px 8px;
+}
+.title__small-name {
+  width: 100%;
+  background-color: white;
+}
+a.active {
+  color: rgb(209, 53, 53);
+}
+.title__small-list-item:hover {
+  background-color: rgba(150, 99, 52, 0.082);
+  transition: 0.5s;
+  color: rgb(107, 59, 59);
+}

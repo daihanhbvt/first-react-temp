@@ -1,0 +1,13 @@
+.company--container,
+.terminal--container,
+.transaction--container,
+.moto--container {
+  width: 100%;
+  display: flex;
+}
+.sidenav-container {
+}
+#col-content {
+  width: inherit;
+  margin: 20px;
+}

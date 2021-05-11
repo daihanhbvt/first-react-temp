@@ -1,0 +1,131 @@
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color 0.5s;
+}
+
+.sidenav {
+  height: 100%;
+
+  /* position: absolute; */
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  /* transition: 0.2s; */
+  border-right: 1px solid #5a56563b;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  /* color: #312e2e; */
+  display: block;
+}
+
+.selectedColor {
+  color: rgb(209, 53, 53);
+}
+
+.sidenav a:hover {
+  background-color: rgba(150, 99, 52, 0.082);
+  transition: 0.5s;
+  color: rgb(107, 59, 59);
+}
+.card a {
+}
+
+.sidenav .closebtn {
+  /* position: absolute; */
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#mySidenav {
+  /* position: relative; */
+  width: 250px;
+}
+
+#main {
+  position: relative;
+  transition: margin-left 0.5s;
+  z-index: 10;
+  height: 100vh;
+  background-color: white;
+  border-right: 1px solid #81818125;
+}
+
+.sidenav-small {
+  position: relative;
+  width: 50px;
+  z-index: 2;
+  /* border-right: 1px solid #312e2e21;
+  background-color: rgb(255, 253, 253); */
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.sidenav-top {
+  position: fixed;
+  width: 230px;
+  margin: 10px;
+}
+.sidenav-icon {
+  margin: 0px;
+}
+
+.logo-payment {
+  width: 50px;
+  height: 50px;
+}
+.sidenav-user {
+  background-color: dimgrey;
+  margin: 16px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+.icon-color__white,
+.text-white {
+  color: white;
+}
+
+.icon-right {
+  display: flex;
+  position: absolute;
+  right: 10px;
+}
+.Collapsible {
+  position: relative;
+  background-color: #818181;
+  width: 100%;
+}
+
+.icon-title {
+  position: absolute;
+  padding-top: 10px;
+  top: 0;
+  left: 10px;
+}
+
+.title-collapse__small {
+  padding: 8px 16px;
+}
+.sidenav-top_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_small-menu {
+  margin: 8px;
+}
+.cursor {
+  cursor: pointer;
+}
+.title-collapse-name {
+  background-color: white;
+}

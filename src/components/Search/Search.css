@@ -1,0 +1,81 @@
+.search__title {
+  z-index: -1;
+}
+rch__title {
+  position: relative;
+  top: 15px;
+  width: 100%;
+}
+.form {
+  background-color: white;
+}
+.search__form {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.chevron {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+input[type="text"] {
+  width: 90%;
+  height: 28px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid rgba(14, 13, 14, 0.829);
+  outline: none;
+}
+select {
+  width: 90%;
+  height: 28px;
+  padding-left: 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid rgba(14, 13, 14, 0.829);
+  outline: none;
+  background-color: rgba(208, 210, 211, 0.712);
+  opacity: 0.8;
+}
+select:focus {
+  outline: none;
+}
+
+.search__list label {
+  display: flex;
+  text-align: center;
+}
+.search__list {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  text-align: center;
+}
+.search__list-title {
+  font-size: 14px;
+  margin-left: 20px;
+}
+.search__list-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+}
+.btn-search,
+.btn-add,
+.btn-icon {
+  padding: 6px;
+  outline: none;
+  cursor: pointer;
+  width: auto;
+  max-width: 150px;
+}
+
+/* .search__title .Collapsible {
+  z-index: 0;
+} */
